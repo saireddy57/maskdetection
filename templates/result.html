@@ -1,0 +1,14 @@
+{% extends "layout.html"%}
+{% block title %}
+Prediction - Hand Sign Digit Recognition
+{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <header class="text-white text-center">
+        <h1 class="display-5">Prediction</h1>
+        <img src="{{ img_data }}" alt="numpy_image" width="auto" height="auto">
+        <h2 class="display-4 text-dark font-weight-bold">{{err}}</h2>
+    </header>
+</div>
+{% endblock %}
